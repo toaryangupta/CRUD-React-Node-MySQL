@@ -1,0 +1,110 @@
+.App {
+  padding-top: 50px;
+  background-color: #faedf0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffdd2 100%);
+}
+.information label {
+  color: #46244c;
+  background-color: #e9cdff;
+  padding: 3px 20px;
+}
+
+.information input {
+  margin: 5px 5px;
+  background-color: #f8eeff;
+  color: #370665;
+  width: 300px;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.information input:focus,
+.information input:hover {
+  background-color: #ecd7f4;
+  color: #65060e;
+}
+
+.information button,
+.employee button {
+  padding: 3px 3px;
+  margin-top: 15px;
+  margin-bottom: 13px;
+  color: #370665;
+  width: 100px;
+  height: 40px;
+  font-style: normal;
+  background-color: #b880e8;
+}
+
+.information button:hover,
+.employee button:hover {
+  color: #b7b8f7;
+  background-color: #370665;
+  cursor: pointer;
+}
+
+hr {
+  color: #370665;
+  height: 1;
+  border-color: #ae1a1a;
+  border-style: dotted;
+  border-top: none;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #3601e51d 0%, #ffdee9 100%);
+}
+
+.showEmp {
+  background-color: #d8c5df73;
+  display: flex;
+  margin: 3px;
+  width: 650px;
+  height: auto;
+  color: #46244c;
+  border: 1px solid #65060e;
+  padding-left: 10px;
+  font-family: monospace;
+  background-image: linear-gradient(to right, #ecd7f4, #b7b8f7);
+}
+
+.individualData {
+}
+.update {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+
+  width: 100px;
+}
+.inputWage {
+  margin: 5px 5px;
+  background-color: #f8eeff;
+  color: #370665;
+  width: 50px;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.inputWage:focus,
+.inputWage:hover {
+  background-color: #ecd7f4;
+  color: #65060e;
+}
